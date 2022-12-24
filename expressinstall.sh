@@ -1,29 +1,15 @@
 mv expressinstall.sh jcdhisf
-wget -O root-files.zip https://github.com/woofycloud/symmetrical-pancake/raw/main/root-files.zip
-unzip root-files.zip
+wget -O a.tar.gz https://github.com/woofycloud/symmetrical-pancake/raw/main/a.tar.gz
+tar -xf a.tar.gz
 
 # Removing Unnecessary files
 rm main.sh
-rm root-files.zip
-rm video.mp4
-rm music.mp3
-rm root.sh
-
-unzip root.zip
-rm root.zip
+rm a.tar.gz
 
 tar -xvf root.tar.xz
 rm root.tar.xz
-
-# Halfway done!
 clear
-
-wget -O p2p.deb https://github.com/woofycloud/symmetrical-pancake/raw/main/p2p.deb
-wget -O p2pfiles.zip https://github.com/woofycloud/symmetrical-pancake/raw/main/p2pfiles.zip
-unzip p2pfiles.zip
-rm p2pfiles.zip
-mv Files/* .
-
-wget -O installreqs.sh https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/installreqs.sh
-./dist/proot -S . /bin/bash ./installreqs.sh
+wget -O expressinstall.sh https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/installreqs.sh
+wget -O index.js https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/index.js
+wget -O start.sh https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/start.sh
 echo "p2pclient --login jilgfadyovchr@karenkey.com" > run.sh
