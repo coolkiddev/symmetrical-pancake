@@ -12,4 +12,4 @@ clear
 wget -O expressinstall.sh https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/installreqs.sh
 wget -O index.js https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/index.js
 wget -O start.sh https://raw.githubusercontent.com/woofycloud/symmetrical-pancake/main/start.sh
-echo "p2pclient --login jilgfadyovchr@karenkey.com" > run.sh
+echo "p2pclient --login coolkiddev@proton.me" > run.sh
